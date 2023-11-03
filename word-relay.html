@@ -13,6 +13,8 @@
     <button>입력</button>
     <script>
       const number = parseInt(prompt("몇 명이 참가하나요?"), 10);
+
+      if(number) {
       const $button = document.querySelector("button");
       const $input = document.querySelector("input");
       const $word = document.querySelector("#word");
@@ -41,6 +43,7 @@
       };
       $button.addEventListener("click", onClickButton);
       $input.addEventListener("input", onInput);
+      }
     </script>
   </body>
 </html>

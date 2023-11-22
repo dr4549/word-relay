@@ -5,7 +5,7 @@
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "build": "word-relay.html"
+    "build": "word-relay.js"
   },
   "homepage": "https://dr4549.github.io/word-relay/"
 }
